@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8221B2BF2D0E60B4008C7677 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8221B2BE2D0E60B4008C7677 /* ProfileViewController.swift */; };
+		8221C75D2D0CAC5200C6967E /* SmileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8221C75C2D0CAC5200C6967E /* SmileViewController.swift */; };
+		822E03F62CF144B7005E0BBC /* JournalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822E03F52CF144B7005E0BBC /* JournalTableViewController.swift */; };
+		822E03F82CF146F5005E0BBC /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822E03F72CF146F5005E0BBC /* EntryViewController.swift */; };
+		822E03FA2CF1484D005E0BBC /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822E03F92CF1484D005E0BBC /* JournalEntry.swift */; };
+		823F06802CED27B70098745A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823F067F2CED27B70098745A /* AppDelegate.swift */; };
+		823F06822CED27B70098745A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823F06812CED27B70098745A /* SceneDelegate.swift */; };
+		823F06872CED27B70098745A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 823F06862CED27B70098745A /* Base */; };
+		823F06892CED27B80098745A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 823F06882CED27B80098745A /* Assets.xcassets */; };
+		823F068C2CED27B80098745A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 823F068B2CED27B80098745A /* Base */; };
+		823F06942CED2B190098745A /* AddEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823F06932CED2B190098745A /* AddEntryViewController.swift */; };
+		8242169F2CF531CE0049F0C1 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242169E2CF531CE0049F0C1 /* ChecklistViewController.swift */; };
+		828D9E8C2D04DFF600A01069 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828D9E8B2D04DFF600A01069 /* StartViewController.swift */; };
+		829390752D0BC21D00927643 /* Breathing.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 829390742D0BC21D00927643 /* Breathing.mp4 */; };
+		829390772D0BC22F00927643 /* breathing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 829390762D0BC22F00927643 /* breathing.mp3 */; };
+		829390792D0BC2B200927643 /* BreatheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829390782D0BC2B200927643 /* BreatheViewController.swift */; };
+		82B1C1D52D09451C00EFD2E9 /* ResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B1C1D42D09451C00EFD2E9 /* ResourceViewController.swift */; };
+		82B1C1D72D094A5200EFD2E9 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B1C1D62D094A5200EFD2E9 /* TabBarController.swift */; };
+		82B1C1DB2D0A123200EFD2E9 /* MentalHealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B1C1DA2D0A123200EFD2E9 /* MentalHealthViewController.swift */; };
+		82B1C1E72D0B900B00EFD2E9 /* AudioFileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B1C1DD2D0B900B00EFD2E9 /* AudioFileReader.m */; };
+		82B1C1E82D0B900B00EFD2E9 /* CircularBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B1C1DF2D0B900B00EFD2E9 /* CircularBuffer.m */; };
+		82B1C1E92D0B900B00EFD2E9 /* FFTHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B1C1E12D0B900B00EFD2E9 /* FFTHelper.m */; };
+		82B1C1EA2D0B900B00EFD2E9 /* MetalGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B1C1E22D0B900B00EFD2E9 /* MetalGraph.swift */; };
+		82B1C1EC2D0B900B00EFD2E9 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 82B1C1E52D0B900B00EFD2E9 /* Shaders.metal */; };
+		82B1C1EF2D0B903400EFD2E9 /* AudioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B1C1EE2D0B903400EFD2E9 /* AudioModel.swift */; };
+		82B1C1F22D0B907800EFD2E9 /* BreathingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B1C1F12D0B907800EFD2E9 /* BreathingViewController.swift */; };
+		82B1C1F72D0B9C3100EFD2E9 /* Novocaine.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B1C1F62D0B9C3100EFD2E9 /* Novocaine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8221B2BE2D0E60B4008C7677 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		8221C75C2D0CAC5200C6967E /* SmileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileViewController.swift; sourceTree = "<group>"; };
+		822E03F52CF144B7005E0BBC /* JournalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTableViewController.swift; sourceTree = "<group>"; };
+		822E03F72CF146F5005E0BBC /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		822E03F92CF1484D005E0BBC /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		823F067C2CED27B70098745A /* TherapyBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TherapyBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		823F067F2CED27B70098745A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		823F06812CED27B70098745A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		823F06862CED27B70098745A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		823F06882CED27B80098745A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		823F068B2CED27B80098745A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		823F068D2CED27B80098745A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		823F06932CED2B190098745A /* AddEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEntryViewController.swift; sourceTree = "<group>"; };
+		8242169E2CF531CE0049F0C1 /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
+		828D9E8B2D04DFF600A01069 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		829390742D0BC21D00927643 /* Breathing.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Breathing.mp4; sourceTree = "<group>"; };
+		829390762D0BC22F00927643 /* breathing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = breathing.mp3; sourceTree = "<group>"; };
+		829390782D0BC2B200927643 /* BreatheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheViewController.swift; sourceTree = "<group>"; };
+		82B1C1D42D09451C00EFD2E9 /* ResourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceViewController.swift; sourceTree = "<group>"; };
+		82B1C1D62D094A5200EFD2E9 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		82B1C1DA2D0A123200EFD2E9 /* MentalHealthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalHealthViewController.swift; sourceTree = "<group>"; };
+		82B1C1DC2D0B900B00EFD2E9 /* AudioFileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioFileReader.h; sourceTree = "<group>"; };
+		82B1C1DD2D0B900B00EFD2E9 /* AudioFileReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioFileReader.m; sourceTree = "<group>"; };
+		82B1C1DE2D0B900B00EFD2E9 /* CircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularBuffer.h; sourceTree = "<group>"; };
+		82B1C1DF2D0B900B00EFD2E9 /* CircularBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularBuffer.m; sourceTree = "<group>"; };
+		82B1C1E02D0B900B00EFD2E9 /* FFTHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTHelper.h; sourceTree = "<group>"; };
+		82B1C1E12D0B900B00EFD2E9 /* FFTHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFTHelper.m; sourceTree = "<group>"; };
+		82B1C1E22D0B900B00EFD2E9 /* MetalGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalGraph.swift; sourceTree = "<group>"; };
+		82B1C1E32D0B900B00EFD2E9 /* Novocaine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Novocaine.h; sourceTree = "<group>"; };
+		82B1C1E52D0B900B00EFD2E9 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		82B1C1EE2D0B903400EFD2E9 /* AudioModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioModel.swift; sourceTree = "<group>"; };
+		82B1C1F12D0B907800EFD2E9 /* BreathingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingViewController.swift; sourceTree = "<group>"; };
+		82B1C1F52D0B9BD700EFD2E9 /* TherapyBridge-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TherapyBridge-Bridging-Header.h"; sourceTree = "<group>"; };
+		82B1C1F62D0B9C3100EFD2E9 /* Novocaine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Novocaine.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		823F06792CED27B70098745A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		823F06732CED27B70098745A = {
+			isa = PBXGroup;
+			children = (
+				82B1C1E62D0B900B00EFD2E9 /* Utilities */,
+				823F067E2CED27B70098745A /* TherapyBridge */,
+				823F067D2CED27B70098745A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		823F067D2CED27B70098745A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				823F067C2CED27B70098745A /* TherapyBridge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		823F067E2CED27B70098745A /* TherapyBridge */ = {
+			isa = PBXGroup;
+			children = (
+				829390742D0BC21D00927643 /* Breathing.mp4 */,
+				829390762D0BC22F00927643 /* breathing.mp3 */,
+				82B1C1EE2D0B903400EFD2E9 /* AudioModel.swift */,
+				823F067F2CED27B70098745A /* AppDelegate.swift */,
+				82B1C1F12D0B907800EFD2E9 /* BreathingViewController.swift */,
+				823F06812CED27B70098745A /* SceneDelegate.swift */,
+				823F06932CED2B190098745A /* AddEntryViewController.swift */,
+				822E03F52CF144B7005E0BBC /* JournalTableViewController.swift */,
+				828D9E8B2D04DFF600A01069 /* StartViewController.swift */,
+				822E03F92CF1484D005E0BBC /* JournalEntry.swift */,
+				822E03F72CF146F5005E0BBC /* EntryViewController.swift */,
+				823F06852CED27B70098745A /* Main.storyboard */,
+				8221B2BE2D0E60B4008C7677 /* ProfileViewController.swift */,
+				8221C75C2D0CAC5200C6967E /* SmileViewController.swift */,
+				82B1C1DA2D0A123200EFD2E9 /* MentalHealthViewController.swift */,
+				82B1C1D62D094A5200EFD2E9 /* TabBarController.swift */,
+				823F06882CED27B80098745A /* Assets.xcassets */,
+				823F068A2CED27B80098745A /* LaunchScreen.storyboard */,
+				823F068D2CED27B80098745A /* Info.plist */,
+				8242169E2CF531CE0049F0C1 /* ChecklistViewController.swift */,
+				82B1C1D42D09451C00EFD2E9 /* ResourceViewController.swift */,
+				82B1C1F52D0B9BD700EFD2E9 /* TherapyBridge-Bridging-Header.h */,
+				829390782D0BC2B200927643 /* BreatheViewController.swift */,
+			);
+			path = TherapyBridge;
+			sourceTree = "<group>";
+		};
+		82B1C1E62D0B900B00EFD2E9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				82B1C1DC2D0B900B00EFD2E9 /* AudioFileReader.h */,
+				82B1C1F62D0B9C3100EFD2E9 /* Novocaine.m */,
+				82B1C1DD2D0B900B00EFD2E9 /* AudioFileReader.m */,
+				82B1C1DE2D0B900B00EFD2E9 /* CircularBuffer.h */,
+				82B1C1DF2D0B900B00EFD2E9 /* CircularBuffer.m */,
+				82B1C1E02D0B900B00EFD2E9 /* FFTHelper.h */,
+				82B1C1E12D0B900B00EFD2E9 /* FFTHelper.m */,
+				82B1C1E22D0B900B00EFD2E9 /* MetalGraph.swift */,
+				82B1C1E32D0B900B00EFD2E9 /* Novocaine.h */,
+				82B1C1E52D0B900B00EFD2E9 /* Shaders.metal */,
+			);
+			name = Utilities;
+			path = TherapyBridge/Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		823F067B2CED27B70098745A /* TherapyBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 823F06902CED27B80098745A /* Build configuration list for PBXNativeTarget "TherapyBridge" */;
+			buildPhases = (
+				823F06782CED27B70098745A /* Sources */,
+				823F06792CED27B70098745A /* Frameworks */,
+				823F067A2CED27B70098745A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TherapyBridge;
+			productName = TherapyBridge;
+			productReference = 823F067C2CED27B70098745A /* TherapyBridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		823F06742CED27B70098745A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					823F067B2CED27B70098745A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 823F06772CED27B70098745A /* Build configuration list for PBXProject "TherapyBridge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 823F06732CED27B70098745A;
+			productRefGroup = 823F067D2CED27B70098745A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				823F067B2CED27B70098745A /* TherapyBridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		823F067A2CED27B70098745A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823F06892CED27B80098745A /* Assets.xcassets in Resources */,
+				829390772D0BC22F00927643 /* breathing.mp3 in Resources */,
+				823F068C2CED27B80098745A /* Base in Resources */,
+				829390752D0BC21D00927643 /* Breathing.mp4 in Resources */,
+				823F06872CED27B70098745A /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		823F06782CED27B70098745A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B1C1EA2D0B900B00EFD2E9 /* MetalGraph.swift in Sources */,
+				82B1C1DB2D0A123200EFD2E9 /* MentalHealthViewController.swift in Sources */,
+				82B1C1EC2D0B900B00EFD2E9 /* Shaders.metal in Sources */,
+				82B1C1D52D09451C00EFD2E9 /* ResourceViewController.swift in Sources */,
+				8242169F2CF531CE0049F0C1 /* ChecklistViewController.swift in Sources */,
+				829390792D0BC2B200927643 /* BreatheViewController.swift in Sources */,
+				8221B2BF2D0E60B4008C7677 /* ProfileViewController.swift in Sources */,
+				823F06942CED2B190098745A /* AddEntryViewController.swift in Sources */,
+				822E03F62CF144B7005E0BBC /* JournalTableViewController.swift in Sources */,
+				8221C75D2D0CAC5200C6967E /* SmileViewController.swift in Sources */,
+				823F06802CED27B70098745A /* AppDelegate.swift in Sources */,
+				82B1C1F72D0B9C3100EFD2E9 /* Novocaine.m in Sources */,
+				828D9E8C2D04DFF600A01069 /* StartViewController.swift in Sources */,
+				82B1C1F22D0B907800EFD2E9 /* BreathingViewController.swift in Sources */,
+				823F06822CED27B70098745A /* SceneDelegate.swift in Sources */,
+				82B1C1E82D0B900B00EFD2E9 /* CircularBuffer.m in Sources */,
+				82B1C1EF2D0B903400EFD2E9 /* AudioModel.swift in Sources */,
+				82B1C1E72D0B900B00EFD2E9 /* AudioFileReader.m in Sources */,
+				822E03FA2CF1484D005E0BBC /* JournalEntry.swift in Sources */,
+				82B1C1D72D094A5200EFD2E9 /* TabBarController.swift in Sources */,
+				822E03F82CF146F5005E0BBC /* EntryViewController.swift in Sources */,
+				82B1C1E92D0B900B00EFD2E9 /* FFTHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		823F06852CED27B70098745A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				823F06862CED27B70098745A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		823F068A2CED27B80098745A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				823F068B2CED27B80098745A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		823F068E2CED27B80098745A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		823F068F2CED27B80098745A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		823F06912CED27B80098745A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84PKM3Y2WY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TherapyBridge/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Required for face tracking.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Required for breathing exercise.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SMU.TherapyBridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TherapyBridge/TherapyBridge-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		823F06922CED27B80098745A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84PKM3Y2WY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TherapyBridge/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Required for face tracking.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Required for breathing exercise.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SMU.TherapyBridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TherapyBridge/TherapyBridge-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		823F06772CED27B70098745A /* Build configuration list for PBXProject "TherapyBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823F068E2CED27B80098745A /* Debug */,
+				823F068F2CED27B80098745A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		823F06902CED27B80098745A /* Build configuration list for PBXNativeTarget "TherapyBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823F06912CED27B80098745A /* Debug */,
+				823F06922CED27B80098745A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 823F06742CED27B70098745A /* Project object */;
+}
